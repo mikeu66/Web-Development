@@ -1,0 +1,56 @@
+ul{
+    list-style: none;
+    line-height: 50px;
+}
+#choices{
+    line-height: 0px;
+}
+
+
+
+h1{
+    padding-left: 40px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=reset]{
+    left: 50px;
+    position: relative;
+    background-color: rgb(112, 109, 109);
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input[type=submit]{
+    left: 40px;
+    position: relative;
+    background-color: rgb(112, 109, 109);
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input[type=button]{
+    left: 40px;
+    position: relative;
+    background-color: rgb(112, 109, 109);
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

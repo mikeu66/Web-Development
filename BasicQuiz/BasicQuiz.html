@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>BasicQuiz</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Random Images">
+    <meta name="author" content="Michael Walter">
+    <link rel="stylesheet" href="BasicQuiz.css">
+    <script src="BasicQuiz.js" defer> </script>
+ </head>
+
+ 
+ 
+ 
+ <body>
+    <h1>
+        Quiz
+    </h1>
+ <form id = "mainForm" action = "./BasicQuiz.php" method = "post">
+    <div id ="main">
+        <ul>
+            <li>1. "URL" stands for "Universal Reference Link".<input type="radio" id="oneT" name="one" value="true"><label for="oneT">True</label><input type="radio" id="oneF" name="one" value="false" required><label for="oneF">False</label><br></li>
+            <li>2. An Apple MacBook is an example of a Linux system.<input type="radio" id="twoT" name="two" value="true"><label for="twoT">True</label><input type="radio" id="twoF" name="two" value="false"><label for="twoF">False</label><br></li>
+            <li>3. Which of these do NOT contribute to packet delay in a packet switching network? </li>
+            <div id = "choices">
+                <li><input type="checkbox" id="threeA" name="three" value="a"><label for="threeA">a)Processing delay at a router</label></li>
+                <li><input type="checkbox" id="threeB" name="three" value="b"><label for="threeB">b) CPU workload on a client</label></li>
+                <li><input type="checkbox" id="threeC" name="three" value="c"><label for="threeC">c) Transmission delay along a communications link</label></li>
+                <li><input type="checkbox" id="threeD" name="three" value="d"><label for="threeD">d) Propagation delay </label></li>
+            </div>
+            <li>4. This Internet layer is responsible for creating the packets that move across the network. </li>
+            <div id = "choices">
+                <li><input type="checkbox" id="fourA" name="four" value="a"><label for="fourA">a) Physical </label></li>
+                <li><input type="checkbox" id="fourB" name="four" value="b"><label for="fourB">b) Data Link </label></li>
+                <li><input type="checkbox" id="fourC" name="four" value="c"><label for="fourC">c) Network </label></li>
+                <li><input type="checkbox" id="fourD" name="four" value="d"><label for="fourD">d) Transport </label></li>
+            </div>
+            <li>5)<input type="text" id="fiveAnswer" name="five" value="" required>is a networking protocol that runs over TCP/IP, and governs communication between web browsers and web servers. (HTTP) </li>
+            <li>6)<input type="text" id="sixAnswer" name="six" value="" required>A small icon displayed in a browser table that identifies a website is called a ________. (favicon)  </li>         
+        </ul>
+        
+    </div>
+
+     <p class = "btn">
+        <input type = "button" id = "submit" value = "Grade"  />
+        <input type = "reset" value = " Clear "  />
+     </p>
+
+ </form>
+ </body>
+</html>
