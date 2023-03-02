@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Tic-Tac-Toe</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tic-Tac-Toe">
+    <meta name="author" content="Michael Walter">
+    <link rel="stylesheet" href="Tic-Tac-Toe.css">
+    <script src="Tic-Tac-Toe.js" defer> </script>
+ </head>
+
+ 
+ 
+ 
+ <body>
+    <h1>
+        Tic-Tac-Toe
+    </h1>
+
+    <div class = "scoreboard">
+        <div class = "teamNameX"> Team X </div>
+        <div class = "teamNameO"> Team O</div>
+        <div class = "scoreX" id = "scoreX">0</div>
+        <div class = "scoreO" id = "scoreO">0</div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <table  id = "ticTacTable">
+        <tr>
+          <td><button type="button" class = "tableBtn" id = "sq1" onclick="setSquare(this.id)"></button></td>
+          <td><button type="button" class = "tableBtn" id = "sq2" onclick="setSquare(this.id)" ></button></td>
+          <td><button type="button" class = "tableBtn" id = "sq3" onclick="setSquare(this.id)" ></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class = "tableBtn" id = "sq4" onclick="setSquare(this.id)" ></button></td>
+          <td><button type="button" class = "tableBtn" id = "sq5" onclick="setSquare(this.id)" ></button></td>
+          <td><button type="button" class = "tableBtn" id = "sq6" onclick="setSquare(this.id)" ></button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class = "tableBtn" id = "sq7" onclick="setSquare(this.id)" ></button></td>
+          <td><button type="button" class = "tableBtn" id = "sq8" onclick="setSquare(this.id)" ></button></td>
+          <td><button type="button" class = "tableBtn" id = "sq9" onclick="setSquare(this.id)" ></button></td>
+        </tr>
+  </table>
+  <div class = "center">
+      <br>
+      <br>
+      <br>
+      <input type = "button" class = "bottomBtn" id = "didWin" onclick = "checkAll()" value = "Submit" />
+      <input type= "button" class = "bottomBtn" id = "replay" onclick= "resetAll()" value = "Replay" />
+  </div>
+
+</body>
+</html>
