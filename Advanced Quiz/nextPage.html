@@ -1,0 +1,23 @@
+<?php
+session_start();
+$username = $_SESSION['username'];
+if(isset($_SESSION['username']) && isset($_SESSION['password'])){
+    $active = true;
+}
+else{
+    $active = false;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Next Page</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Results Page">
+        <meta name="author" content="Michael Walter">
+     </head> 
+<body>
+
+</body>
+</html>

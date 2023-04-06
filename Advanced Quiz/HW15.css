@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(230, 230, 214);
+ }
+ 
+ h2{
+    border: 5px ridge rgb(216, 215, 215);
+    color: rgb(182, 121, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+ }
+
+ h3{
+     margin: 0px;
+     font-size: 22px;
+ }
+ 
+ table, th, td {
+     color: rgb(172, 105, 6);
+     border: 2px;
+     text-align: center;
+     margin: auto;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 14px;
+     
+   }
+
+ form {
+    background-color: rgb(202, 200, 192);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+ }
+
+
+input[type=submit]{
+    position: relative;
+    background-color: rgb(182, 121, 29);
+    right: 50px;
+    border: none;
+    color: white;
+    width: 50%;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+   input[type=reset]{
+    position: relative;
+    background-color: rgb(182, 121, 29);
+    right: 20px;
+    width: 50%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

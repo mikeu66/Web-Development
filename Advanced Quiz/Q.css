@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(230, 230, 214);
+}
+h1{
+    text-align: center;
+    color: rgb(182, 121, 29);
+    padding-top: 5px;
+}
+form {
+    background-color: rgb(202, 200, 192);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+ }
+
+ input[type=submit]{
+    position: relative;
+    background-color: rgb(182, 121, 29);
+    right: 5px;
+    border: none;
+    color: white;
+    width: 20%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+   input[type=reset]{
+    position: relative;
+    background-color: rgb(182, 121, 29);
+    left: 5px;
+    width: 20%;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+    line-height: 50px;
+}
+#choices{
+    line-height: 0px;
+    text-align: left;
+}
